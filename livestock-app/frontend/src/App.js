@@ -1,20 +1,23 @@
-import React, { useEffect, useState } from "react";
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
-  const [data, setData] = useState([]);
-
-  useEffect(() => {
-    fetch("http://localhost:8080/api/livestock")
-      .then(res => res.json())
-      .then(setData);
-  }, []);
-
   return (
-    <div>
-      <h1>Livestock App</h1>
-      {data.map((item, i) => (
-        <p key={i}>{item}</p>
-      ))}
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
   );
 }
