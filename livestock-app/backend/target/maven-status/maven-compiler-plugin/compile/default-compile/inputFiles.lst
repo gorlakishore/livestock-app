@@ -1,0 +1,6 @@
+/livestock-app/livestock-app/backend/src/main/java/com/livestock/config/CorsConfig.java
+/livestock-app/livestock-app/backend/src/main/java/com/livestock/repository/LivestockRepository.java
+/livestock-app/livestock-app/backend/src/main/java/com/livestock/LivestockApplication.java
+/livestock-app/livestock-app/backend/src/main/java/com/livestock/service/LivestockService.java
+/livestock-app/livestock-app/backend/src/main/java/com/livestock/controller/LivestockController.java
+/livestock-app/livestock-app/backend/src/main/java/com/livestock/model/Livestock.java

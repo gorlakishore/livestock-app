@@ -1,0 +1,7 @@
+com/livestock/controller/LivestockController.class
+com/livestock/model/Livestock.class
+com/livestock/repository/LivestockRepository.class
+com/livestock/service/LivestockService.class
+com/livestock/LivestockApplication.class
+com/livestock/config/CorsConfig$1.class
+com/livestock/config/CorsConfig.class
